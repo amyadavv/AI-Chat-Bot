@@ -1,0 +1,12 @@
+# Environment files (never commit real secrets)
+.env
+.env.*
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Allow committed examples
+!.env.example
+!backend/.env.example
+!frontend/.env.example
